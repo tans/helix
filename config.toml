@@ -3,6 +3,17 @@ theme = "monokai_pro"
 
 [keys.normal]
 C-s = ":w"
+C-z = "save_selection"
+
+
+[keys.insert]
+C-h = "move_char_left"
+C-l = "move_char_right"
+C-s = ":w"
+C-z = "save_selection"
+
+[keys.normal.g]
+G = "goto_file_end"
 
 [editor.cursor-shape]
 insert = "bar"
